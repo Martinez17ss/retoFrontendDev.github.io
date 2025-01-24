@@ -30,9 +30,9 @@ function App() {
       return;
     }
 
-    alert("Thank you for joining our newsletter!"); 
+    alert("Thank you for joining our newsletter!");
     setCaptchaVerified(false);
-    setEmail(""); 
+    setEmail("");
   };
 
   return (
@@ -61,7 +61,7 @@ function App() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="Enter Your Email"
-                className="w-full p-3 text-sm text-gray-900 bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-purple-500"
+                className="input-underline"
                 required
               />
             </div>
