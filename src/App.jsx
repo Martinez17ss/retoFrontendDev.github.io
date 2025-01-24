@@ -47,14 +47,11 @@ function App() {
               style={{ marginBottom: "20px" }}
             />
           </div>
-          <h2
-            className="text-xl font-bold text-gray-900 mb-6"
-            style={{ marginBottom: "66px" }}
-          >
+          <h1 className="custom-heading">
             SUBSCRIBE
-          </h2>
+          </h1>
           <form onSubmit={handleSubmit}>
-            <div className="relative mb-4" style={{ marginBottom: "66px" }}>
+            <div className="relative mb-4" style={{ marginBottom: "30px" }}>
               <input
                 type="email"
                 id="email"
@@ -71,14 +68,13 @@ function App() {
             <button
               type="button"
               onClick={() => setShowCaptcha(true)}
-              className="w-full py-3 bg-blue-500 text-white font-bold rounded-full hover:bg-blue-600 transition mb-4"
+              className="w-full py-3 bg-blue-500 text-white font-bold rounded-full mb-4"
             >
               Verify CAPTCHA
             </button>
             <button
               type="submit"
               className="w-full py-3 bg-lime-500 text-black font-bold rounded-full hover:bg-lime-600 transition"
-              style={{ marginBottom: "66px" }}
             >
               SUBSCRIBE
             </button>
@@ -86,7 +82,7 @@ function App() {
         </div>
       </section>
 
-      {/* CAPTCHA Modal */}
+
       {showCaptcha && (
         <div className="captcha-modal">
           <div className="captcha-content">

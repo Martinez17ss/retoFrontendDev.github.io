@@ -25,6 +25,18 @@ body {
   box-sizing: border-box;
 }
 
+.custom-heading {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #000000;
+  line-height: 38.73px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 50px;
+}
+
 
 input {
   padding: 10px;
@@ -35,6 +47,18 @@ input {
 }
 
 button[type="submit"] {
+  background-color: #E6FC15;
+  border: 1px solid #ccc;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  max-width: 300px;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+
+button[type="button"] {
   background-color: #E6FC15;
   border: 1px solid #ccc;
   color: #000000;
